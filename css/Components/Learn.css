@@ -51,3 +51,33 @@
 .more::before{
     content: "...";
 }
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .Learn--list{
+        flex-direction: row;
+        justify-content: space-around;
+        font:var(--BodyMobile2);
+    }
+  }
+  
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .Learn__list--item::before{
+        width: 40px;
+        height: 40px; 
+        color: var(--highlight);
+        font: var(--BodyMobile);
+        font-weight: 700;
+    }
+    .Learn{
+        margin-block-start: 150px;
+        margin-block-end: 150px;
+    }
+  }
+  
+  

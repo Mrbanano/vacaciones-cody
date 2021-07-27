@@ -24,3 +24,14 @@
 .Vacation__cards .pages{
     background-color: var(--cardColor2);
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Vacation__cards{
+      display: flex;
+    }
+  }
+  
+  
+  
+ 
